@@ -1,0 +1,15 @@
+C:\Users\SER\Documents\Practica Profesional\frmAltaEmpleado\frmAltaEmpleado\bin\Debug\frmAltaEmpleado.exe.config
+C:\Users\SER\Documents\Practica Profesional\frmAltaEmpleado\frmAltaEmpleado\bin\Debug\frmAltaEmpleado.exe
+C:\Users\SER\Documents\Practica Profesional\frmAltaEmpleado\frmAltaEmpleado\bin\Debug\frmAltaEmpleado.pdb
+C:\Users\SER\Documents\Practica Profesional\frmAltaEmpleado\frmAltaEmpleado\bin\Debug\Controlador.dll
+C:\Users\SER\Documents\Practica Profesional\frmAltaEmpleado\frmAltaEmpleado\bin\Debug\Modelo.dll
+C:\Users\SER\Documents\Practica Profesional\frmAltaEmpleado\frmAltaEmpleado\bin\Debug\Controlador.pdb
+C:\Users\SER\Documents\Practica Profesional\frmAltaEmpleado\frmAltaEmpleado\bin\Debug\Modelo.pdb
+C:\Users\SER\Documents\Practica Profesional\frmAltaEmpleado\frmAltaEmpleado\obj\Debug\frmAltaEmpleado.csprojResolveAssemblyReference.cache
+C:\Users\SER\Documents\Practica Profesional\frmAltaEmpleado\frmAltaEmpleado\obj\Debug\frmAltaEmpleado.frmAltaEmpleado.resources
+C:\Users\SER\Documents\Practica Profesional\frmAltaEmpleado\frmAltaEmpleado\obj\Debug\frmAltaEmpleado.Properties.Resources.resources
+C:\Users\SER\Documents\Practica Profesional\frmAltaEmpleado\frmAltaEmpleado\obj\Debug\frmAltaEmpleado.csproj.GenerateResource.Cache
+C:\Users\SER\Documents\Practica Profesional\frmAltaEmpleado\frmAltaEmpleado\obj\Debug\frmAltaEmpleado.exe
+C:\Users\SER\Documents\Practica Profesional\frmAltaEmpleado\frmAltaEmpleado\obj\Debug\frmAltaEmpleado.pdb
+C:\Users\SER\Documents\Practica Profesional\frmAltaEmpleado\frmAltaEmpleado\obj\Debug\frmAltaEmpleado.FrmMostrarEmpleados.resources
+C:\Users\SER\Documents\Practica Profesional\frmAltaEmpleado\frmAltaEmpleado\obj\Debug\frmAltaEmpleado.FrmBuscarEmpleado.resources

@@ -1,0 +1,7 @@
+C:\Users\SER\Documents\Practica Profesional\frmAltaEmpleado\Controlador\bin\Debug\Controlador.dll
+C:\Users\SER\Documents\Practica Profesional\frmAltaEmpleado\Controlador\bin\Debug\Controlador.pdb
+C:\Users\SER\Documents\Practica Profesional\frmAltaEmpleado\Controlador\bin\Debug\Modelo.dll
+C:\Users\SER\Documents\Practica Profesional\frmAltaEmpleado\Controlador\bin\Debug\Modelo.pdb
+C:\Users\SER\Documents\Practica Profesional\frmAltaEmpleado\Controlador\obj\Debug\Controlador.csprojResolveAssemblyReference.cache
+C:\Users\SER\Documents\Practica Profesional\frmAltaEmpleado\Controlador\obj\Debug\Controlador.dll
+C:\Users\SER\Documents\Practica Profesional\frmAltaEmpleado\Controlador\obj\Debug\Controlador.pdb
