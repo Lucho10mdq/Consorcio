@@ -16,7 +16,7 @@ namespace Modelo
         private List<Empleado> ListaEmpleados = new List<Empleado>();
         static RepositorioEmpleado instance = null;
 
-        SqlConnection conexion = new SqlConnection();
+        SqlConnection conexion = new SqlConnection(@"Server=LAPTOP-4RC7FOER;Database=Consorcios;Trusted_Connection=True;");
 
         public int agregarEmpleado(Empleado oEmpleado)
         {

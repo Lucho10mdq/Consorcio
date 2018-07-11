@@ -16,7 +16,7 @@ namespace Modelo
         private List<Consorcio> ListaConsorcio = new List<Consorcio>();
         static RepositorioConsorcio instance = null;
 
-        SqlConnection conexion = new SqlConnection();
+        SqlConnection conexion = new SqlConnection(@"Server=LAPTOP-4RC7FOER;Database=Consorcios;Trusted_Connection=True;");
 
 
         //LISTAR CONSORCIO

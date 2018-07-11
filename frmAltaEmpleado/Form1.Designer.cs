@@ -28,9 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.cmbId = new System.Windows.Forms.ComboBox();
-            this.cmbNombre = new System.Windows.Forms.ComboBox();
-            this.cmbCuit = new System.Windows.Forms.ComboBox();
             this.lblConsorcio = new System.Windows.Forms.Label();
             this.lblEmpleado = new System.Windows.Forms.Label();
             this.txtApellido = new System.Windows.Forms.TextBox();
@@ -49,43 +46,14 @@
             this.btnCalcularSueldo = new System.Windows.Forms.Button();
             this.lblTotal = new System.Windows.Forms.Label();
             this.lblresultado = new System.Windows.Forms.Label();
+            this.cmbNombre = new System.Windows.Forms.ComboBox();
             this.SuspendLayout();
-            // 
-            // cmbId
-            // 
-            this.cmbId.Cursor = System.Windows.Forms.Cursors.AppStarting;
-            this.cmbId.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.cmbId.FormattingEnabled = true;
-            this.cmbId.Location = new System.Drawing.Point(15, 53);
-            this.cmbId.Name = "cmbId";
-            this.cmbId.Size = new System.Drawing.Size(140, 23);
-            this.cmbId.TabIndex = 0;
-            // 
-            // cmbNombre
-            // 
-            this.cmbNombre.Cursor = System.Windows.Forms.Cursors.AppStarting;
-            this.cmbNombre.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.cmbNombre.FormattingEnabled = true;
-            this.cmbNombre.Location = new System.Drawing.Point(198, 53);
-            this.cmbNombre.Name = "cmbNombre";
-            this.cmbNombre.Size = new System.Drawing.Size(140, 23);
-            this.cmbNombre.TabIndex = 0;
-            // 
-            // cmbCuit
-            // 
-            this.cmbCuit.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.cmbCuit.FormattingEnabled = true;
-            this.cmbCuit.Location = new System.Drawing.Point(376, 53);
-            this.cmbCuit.Name = "cmbCuit";
-            this.cmbCuit.Size = new System.Drawing.Size(140, 23);
-            this.cmbCuit.TabIndex = 0;
-            this.cmbCuit.Tag = "";
             // 
             // lblConsorcio
             // 
             this.lblConsorcio.AutoSize = true;
             this.lblConsorcio.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblConsorcio.Location = new System.Drawing.Point(195, 10);
+            this.lblConsorcio.Location = new System.Drawing.Point(195, 9);
             this.lblConsorcio.Name = "lblConsorcio";
             this.lblConsorcio.Size = new System.Drawing.Size(86, 16);
             this.lblConsorcio.TabIndex = 3;
@@ -247,6 +215,16 @@
             this.lblresultado.TabIndex = 20;
             this.lblresultado.Text = "$ 0";
             // 
+            // cmbNombre
+            // 
+            this.cmbNombre.Cursor = System.Windows.Forms.Cursors.AppStarting;
+            this.cmbNombre.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cmbNombre.FormattingEnabled = true;
+            this.cmbNombre.Location = new System.Drawing.Point(165, 47);
+            this.cmbNombre.Name = "cmbNombre";
+            this.cmbNombre.Size = new System.Drawing.Size(140, 23);
+            this.cmbNombre.TabIndex = 0;
+            // 
             // frmAltaEmpleado
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
@@ -270,9 +248,7 @@
             this.Controls.Add(this.txtApellido);
             this.Controls.Add(this.lblEmpleado);
             this.Controls.Add(this.lblConsorcio);
-            this.Controls.Add(this.cmbCuit);
             this.Controls.Add(this.cmbNombre);
-            this.Controls.Add(this.cmbId);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ForeColor = System.Drawing.Color.Black;
             this.Name = "frmAltaEmpleado";
@@ -284,10 +260,6 @@
         }
 
         #endregion
-
-        private System.Windows.Forms.ComboBox cmbId;
-        private System.Windows.Forms.ComboBox cmbNombre;
-        private System.Windows.Forms.ComboBox cmbCuit;
         private System.Windows.Forms.Label lblConsorcio;
         private System.Windows.Forms.Label lblEmpleado;
         private System.Windows.Forms.TextBox txtApellido;
@@ -306,6 +278,7 @@
         private System.Windows.Forms.Button btnCalcularSueldo;
         private System.Windows.Forms.Label lblTotal;
         private System.Windows.Forms.Label lblresultado;
+        private System.Windows.Forms.ComboBox cmbNombre;
     }
 }
 

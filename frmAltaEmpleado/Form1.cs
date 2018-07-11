@@ -22,14 +22,9 @@ namespace frmAltaEmpleado
         }
 
         private void Form1_Load(object sender, EventArgs e)
-        {
-            foreach(Consorcio oConsorcio in cConsorcio.DevolverConsorcios())
-            {
-                cmbId.Items.Add(oConsorcio.ConsorcioId);
-                cmbNombre.Items.Add(oConsorcio.Nombre);
-                cmbCuit.Items.Add(oConsorcio.Cuit);
-            }
-            
+        {      
+                cmbNombre.DataSource = cConsorcio.DevolverConsorcios();
+                cmbNombre.DisplayMember = "nombre";
         }
 
         private void btnGuardar_Click(object sender, EventArgs e)
@@ -39,11 +34,12 @@ namespace frmAltaEmpleado
             string apellido = txtApellido.Text;
             string nombre = txtNombre.Text;
             string cuil = txtCuil.Text;
-
-            if (cmbId.SelectedIndex.Equals(-1) && cmbNombre.SelectedIndex.Equals(-1) && cmbCuit.SelectedIndex.Equals(-1))
+            //Corregir
+            Consorcio oConsorcio = (Consorcio)cmbNombre.SelectedItem;
+            if (cmbNombre.SelectedIndex.Equals(0))
                 if (!String.IsNullOrEmpty(txtApellido.Text) && !String.IsNullOrEmpty(txtNombre.Text) && !String.IsNullOrEmpty(txtCuil.Text) && !String.IsNullOrEmpty(txtValorHora.Text) && !String.IsNullOrEmpty(txtValorMes.Text))
 
-                    result = cEmpleado.AgregarEmpleado(apellido, nombre, cuil, Convert.ToDouble(txtValorHora.Text), Convert.ToDouble(txtValorMes.Text), Convert.ToInt32(cmbId.SelectedItem.ToString()), cmbNombre.SelectedItem.ToString(), cmbCuit.SelectedItem.ToString());
+                    result = cEmpleado.AgregarEmpleado(apellido, nombre, cuil, Convert.ToDouble(txtValorHora.Text), Convert.ToDouble(txtValorMes.Text),oConsorcio.ConsorcioId,oConsorcio.Nombre,oConsorcio.Cuit);
                 else
                     message = "Debe llenar los campos vacios";
             else
